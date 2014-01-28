@@ -5,6 +5,9 @@ In this repo we collect some infos on building current versions of chromium and 
 
 ### Howto
 
+The source rpm provided is based on http://people.centos.org/hughesjr/chromium/6/
+All we did was adding chromedriver to the spec, and adding a patch for a failing revision resolution for the chromedriver sources.
+
 #### Get the SRPM for chromium 
 ```wget http://downloads.onrooby.com/chromium/srpms/chromium-31.0.1650.63-1.el6.src.rpm```
 
