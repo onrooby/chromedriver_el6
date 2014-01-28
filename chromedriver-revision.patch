@@ -1,0 +1,11 @@
+--- chromium-31.0.1650.63/chrome/test/chromedriver/embed_version_in_cpp.py.revision	2013-12-04 21:55:17.000000000 +0100
++++ chromium-31.0.1650.63/chrome/test/chromedriver/embed_version_in_cpp.py	2014-01-28 17:29:26.441412543 +0100
+@@ -25,7 +25,7 @@ def main():
+   options, args = parser.parse_args()
+ 
+   version = open(options.version_file, 'r').read().strip()
+-  revision = lastchange.FetchVersionInfo(None).revision.strip()
++  revision = '238485'
+   global_string_map = {
+       'kChromeDriverVersion': version + '.' + revision
+   }
