@@ -197,7 +197,7 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 /%{chromium_path}/chromium-browser.sh
 
 %attr(4755, root, root) /%{chromium_path}/chrome-sandbox
-%attr(4755, root, root) /%{chromium_path}/chromedriver
+%attr(755, root, root) /%{chromium_path}/chromedriver
 
 /%{chromium_path}/libffmpegsumo.so
 /%{chromium_path}/locales/
