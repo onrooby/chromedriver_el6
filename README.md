@@ -5,9 +5,22 @@ In this repo we collect some infos on building current versions of chromium and 
 
 ## About
 
+On CentOS 6, you get the following error when trying to start chromedriver:
+
+```
+/lib64/libc.so.6: version `GLIBC_2.14' not found (required by ./chromedriver)
+./chromedriver: /lib64/libc.so.6: version `GLIBC_2.15' not found (required by ./chromedriver)
+./chromedriver: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.15' not found (required by ./chromedriver)
+```
+
 The source rpm provided is based on http://people.centos.org/hughesjr/chromium/6/
 
 All we did was adding chromedriver to the spec, and adding a patch for a failing revision resolution for the chromedriver sources.
+
+## Current Versions
+
+ChromeDriver v2.3
+Chromium 31.0.1650.63
 
 ## Instructions
 
