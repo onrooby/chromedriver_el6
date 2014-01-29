@@ -26,12 +26,13 @@ All we did was adding chromedriver to the spec, and adding a patch for a failing
 
 ## Instructions
 
-**Do NOT do this as root!**
+**Do NOT do this as root! You might damage your system!**
+RPM building will take place in ```~/rpmbuild```.
 
 #### Get the SRPM for chromium 
 ```wget http://downloads.onrooby.com/chromium/srpms/chromium-31.0.1650.63-1.el6.src.rpm```
 
-#### Install
+#### Install (as normal user)
 ```rpm -ivh chromium-31.0.1650.63-1.el6.src.rpm```
 
 #### Build
