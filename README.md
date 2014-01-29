@@ -20,6 +20,7 @@ All we did was adding chromedriver to the spec, and adding a patch for a failing
 ## Current Versions
 
 ChromeDriver v2.3
+
 Chromium 31.0.1650.63
 
 ## Instructions
