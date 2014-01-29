@@ -46,7 +46,7 @@ When rpmbuild complains about missing dependencies (mostly devel packages), inst
 
 ## Binaries
 
-We provide pre-built packages, use them on your own risk!
+We provide pre-built packages. Use at your own risk!
 
 http://downloads.onrooby.com/chromium/rpms/
 
