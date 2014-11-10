@@ -3,6 +3,8 @@ chromedriver_el6
 
 In this repo we collect some infos on building current versions of chromium and chromedriver on CentOS 6.
 
+For CentOS 7, see https://github.com/onrooby/chromedriver_el7
+
 ## About
 
 As CentOS 6 is no longer supported by Google, you will get the following error when trying to start chromedriver:
@@ -44,7 +46,7 @@ rpmbuild -ba chromium.spec
 ```
 
 When rpmbuild complains about missing dependencies (mostly devel packages), install them using
-```yum install <packagenames>```
+```yum install <packagenames>``` or alternatively, use ```# yum-builddep chromium.spec```.
 
 ## Binaries
 
